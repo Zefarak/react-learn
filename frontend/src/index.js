@@ -1,23 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ProductList from './voting_app/app';
-import TimersDashboard from  './TrackingApp/app'
-import classSelect from'./Forms/CourseSelect'
+import App from './ChatSimple/App.js'
 
 
-
-
-class App extends React.Component {
+class App_ extends React.Component {
 
     render() {
         return (
             <div>
-             <classSelect />
+             <App />
             </div>
         )
     }
 }
 
 
-ReactDOM.render(<App />,document.getElementById('app'));
+ReactDOM.render(<App_ />,document.getElementById('app'));
