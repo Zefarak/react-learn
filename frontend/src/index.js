@@ -1,19 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './ChatSimple/App.js'
+import ChatApp from './Redux/ChatInter/app.js'
 
 
-class App_ extends React.Component {
+class App extends React.Component {
 
     render() {
         return (
             <div>
-             <App />
+             <ChatApp />
             </div>
         )
     }
 }
 
 
-ReactDOM.render(<App_ />,document.getElementById('app'));
+ReactDOM.render(<App />,document.getElementById('app'));
+

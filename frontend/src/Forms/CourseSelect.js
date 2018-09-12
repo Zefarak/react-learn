@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import Core from './api/core.json';
 import Electives from './api/electives.json';
 
-235
+250
 const Courses = {
     core: Core,
     electives: Electives
 }
 
-class classSelect extends React.Component {
+class ClassSelect extends React.Component {
 
     static propTypes = {
         department: PropTypes.string,
@@ -128,4 +128,4 @@ function apiClient(department) {
     };
   }
 
-export default classSelect;
+export default ClassSelect;
